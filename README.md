@@ -21,7 +21,7 @@ STM <-> RDS Connections:
 
 STM <-> PC Connections
 
-+ PA9 UART1_TXD - RDS decoded data & debug information
++ PA9 UART1_TXD - RDS decoded data & debug information (230400 bauds, 8N1)
 
 Simply type in "make all" to build binary image and upload it at the beginning of the flash memory.
 
