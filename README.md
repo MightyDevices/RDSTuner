@@ -19,4 +19,9 @@ STM <-> RDS Connections:
 + PB13 (SPI2_SCK) - RDSCLK
 + PB15 (SPI2_MOSI) - RDSDAT
 
+STM <-> PC Connections
+
++ PA9 UART1_TXD - RDS & debug information
+
 Simply type in "make all" to build binary image and upload it at the beginning of the flash memory.
+
