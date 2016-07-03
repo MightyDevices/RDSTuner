@@ -5,7 +5,7 @@ I've connected STM32L476 (from Nucleo-L476RG board) to some no-name FM/AM tuner 
 
 This is what this code does:
 + setting new frequency in 100kHz increments after the 'User' button is pressed (communication with LC72131 PLL)
-+ reading and decoding RDS data stream that comes from BU1924 using STM32 SPI in slave mode
++ reading and decoding RDS data stream that comes from BU1924 using STM32 SPI in slave mode, basic info only, station name, radio texts, nothing fancy.
 
 STM <-> PLL Connections:
 
@@ -21,7 +21,7 @@ STM <-> RDS Connections:
 
 STM <-> PC Connections
 
-+ PA9 UART1_TXD - RDS decoded data & debug information (230400 bauds, 8N1)
++ PA9 (UART1_TXD) - RDS decoded data & debug information (230400 bauds, 8N1)
 
 Simply type in "make all" to build binary image and upload it at the beginning of the flash memory.
 
