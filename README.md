@@ -1,5 +1,4 @@
-# RDSTuner 📻
-
+# RDSTuner
 Code for controlling LC72131 based tuner with BU1924 RDS decoder.
 
 I've connected STM32L476 (from Nucleo-L476RG board) to some no-name FM/AM tuner that comes from Marantz amplifier. The tuner was broken down, and after doing the repair I needed to be able to do some testing.
